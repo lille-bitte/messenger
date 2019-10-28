@@ -139,7 +139,7 @@ class Response extends AbstractMessage implements ResponseInterface
         }
 
         if ('' === $reasonPhrase && isset($this->phrases[$code])) {
-            $this->reasonPhrase = $this->phrases[$code];
+            $reasonPhrase = $this->phrases[$code];
         }
 
         $this->reasonPhrase = $reasonPhrase;
