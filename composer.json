@@ -1,0 +1,45 @@
+{
+	"name": "lille-bitte/teachdaire",
+	"type": "library",
+	"description": "PSR-7 HTTP Message Implementations",
+	"license": "BSD-3-Clause",
+	"keywords": [
+		"http",
+		"http-implementation",
+		"psr-7",
+		"psr7",
+		"psr"
+	],
+	"config": {
+		"sort-packages": true
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.0-dev"
+		}
+	},
+	"autoload": {
+		"psr-4": {
+			"LilleBitte\\Teachdaire\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"LilleBitte\\Teachdaire\\Tests\\": "tests/"
+		}
+	},
+	"require": {
+		"php": ">=7.1",
+		"psr/http-factory": "^1.0@dev",
+		"psr/http-message": "^1.0@dev"
+	},
+	"require-dev": {
+		"php-http/psr7-integration-tests": "^1.0@dev",
+		"phpunit/phpunit": "^7.5"
+	},
+	"provide": {
+		"psr/http-factory-implementation": "1.0.0",
+		"psr/http-message-implementation": "1.0.0"
+	},
+	"minimum-stability": "stable"
+}
