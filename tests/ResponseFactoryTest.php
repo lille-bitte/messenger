@@ -1,8 +1,8 @@
 <?php
 
-namespace LilleBitte\Teachdaire\Tests;
+namespace LilleBitte\Messenger\Tests;
 
-use LilleBitte\Teachdaire\ResponseFactory;
+use LilleBitte\Messenger\ResponseFactory;
 use Psr\Http\Message\ResponseInterface;
 use PHPUnit\Framework\TestCase;
 

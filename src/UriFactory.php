@@ -1,10 +1,10 @@
 <?php
 
-namespace LilleBitte\Teachdaire;
+namespace LilleBitte\Messenger;
 
 use Psr\Http\Message\UriInterface;
 use Psr\Http\Message\UriFactoryInterface;
-use LilleBitte\Teachdaire\Uri;
+use LilleBitte\Messenger\Uri;
 
 /**
  * @author Paulus Gandung Prakosa <rvn.plvhx@gmail.com>

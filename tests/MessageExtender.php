@@ -1,8 +1,8 @@
 <?php
 
-namespace LilleBitte\Teachdaire\Tests;
+namespace LilleBitte\Messenger\Tests;
 
-use LilleBitte\Teachdaire\AbstractMessage;
+use LilleBitte\Messenger\AbstractMessage;
 
 /**
  * @author Paulus Gandung Prakosa <rvn.plvhx@gmail.com>

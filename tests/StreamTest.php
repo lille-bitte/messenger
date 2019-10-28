@@ -1,8 +1,8 @@
 <?php
 
-namespace LilleBitte\Teachdaire\Tests;
+namespace LilleBitte\Messenger\Tests;
 
-use LilleBitte\Teachdaire\Stream;
+use LilleBitte\Messenger\Stream;
 use Psr\Http\Message\StreamInterface;
 use PHPUnit\Framework\TestCase;
 

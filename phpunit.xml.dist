@@ -1,6 +1,6 @@
 <phpunit bootstrap="./vendor/autoload.php" colors="true">
 	<testsuites>
-		<testsuite name="LilleBitte\\Teachdaire Tests.">
+		<testsuite name="LilleBitte\\Messenger Tests.">
 			<directory>./tests</directory>
 		</testsuite>
 	</testsuites>
@@ -12,11 +12,11 @@
 	</filter>
 
 	<php>
-		<const name="URI_FACTORY" value="LilleBitte\Teachdaire\UriFactory" />
-		<const name="STREAM_FACTORY" value="LilleBitte\Teachdaire\StreamFactory" />
-		<const name="REQUEST_FACTORY" value="LilleBitte\Teachdaire\RequestFactory" />
-		<const name="RESPONSE_FACTORY" value="LilleBitte\Teachdaire\ResponseFactory" />
-		<const name="SERVER_REQUEST_FACTORY" value="LilleBitte\Teachdaire\ServerRequestFactory" />
-		<const name="UPLOADED_FILE_FACTORY" value="LilleBitte\Teachdaire\UploadedFileFactory" />
+		<const name="URI_FACTORY" value="LilleBitte\Messenger\UriFactory" />
+		<const name="STREAM_FACTORY" value="LilleBitte\Messenger\StreamFactory" />
+		<const name="REQUEST_FACTORY" value="LilleBitte\Messenger\RequestFactory" />
+		<const name="RESPONSE_FACTORY" value="LilleBitte\Messenger\ResponseFactory" />
+		<const name="SERVER_REQUEST_FACTORY" value="LilleBitte\Messenger\ServerRequestFactory" />
+		<const name="UPLOADED_FILE_FACTORY" value="LilleBitte\Messenger\UploadedFileFactory" />
 	</php>
 </phpunit>

@@ -1,11 +1,11 @@
 <?php
 
-namespace LilleBitte\Teachdaire;
+namespace LilleBitte\Messenger;
 
 use Psr\Http\Message\StreamInterface;
 use Psr\Http\Message\UploadedFileInterface;
 use Psr\Http\Message\UploadedFileFactoryInterface;
-use LilleBitte\Teachdaire\UploadedFile;
+use LilleBitte\Messenger\UploadedFile;
 
 /**
  * @author Paulus Gandung Prakosa <rvn.plvhx@gmail.com>

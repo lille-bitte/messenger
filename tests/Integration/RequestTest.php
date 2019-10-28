@@ -1,9 +1,9 @@
 <?php
 
-namespace LilleBitte\Teachdaire\Tests\Integration;
+namespace LilleBitte\Messenger\Tests\Integration;
 
 use Http\Psr7Test\RequestIntegrationTest;
-use LilleBitte\Teachdaire\Request;
+use LilleBitte\Messenger\Request;
 
 /**
  * @author Paulus Gandung Prakosa <rvn.plvhx@gmail.com>

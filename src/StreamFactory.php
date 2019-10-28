@@ -1,10 +1,10 @@
 <?php
 
-namespace LilleBitte\Teachdaire;
+namespace LilleBitte\Messenger;
 
 use Psr\Http\Message\StreamInterface;
 use Psr\Http\Message\StreamFactoryInterface;
-use LilleBitte\Teachdaire\Stream;
+use LilleBitte\Messenger\Stream;
 
 /**
  * @author Paulus Gandung Prakosa <rvn.plvhx@gmail.com>

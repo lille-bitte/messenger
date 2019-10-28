@@ -1,9 +1,9 @@
 <?php
 
-namespace LilleBitte\Teachdaire\Tests;
+namespace LilleBitte\Messenger\Tests;
 
 use Psr\Http\Message\RequestInterface;
-use LilleBitte\Teachdaire\AbstractRequest;
+use LilleBitte\Messenger\AbstractRequest;
 use PHPUnit\Framework\TestCase;
 
 /**

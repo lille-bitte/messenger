@@ -1,9 +1,9 @@
 <?php
 
-namespace LilleBitte\Teachdaire;
+namespace LilleBitte\Messenger;
 
 use Http\Psr7Test\UriIntegrationTest;
-use LilleBitte\Teachdaire\Uri;
+use LilleBitte\Messenger\Uri;
 
 /**
  * @author Paulus Gandung Prakosa <rvn.plvhx@gmail.com>

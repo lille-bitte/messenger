@@ -1,6 +1,6 @@
 <?php
 
-namespace LilleBitte\Teachdaire;
+namespace LilleBitte\Messenger;
 
 /**
  * @author Paulus Gandung Prakosa <rvn.plvhx@gmail.com>

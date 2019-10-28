@@ -1,11 +1,11 @@
 <?php
 
-namespace LilleBitte\Teachdaire\Tests;
+namespace LilleBitte\Messenger\Tests;
 
 use Psr\Http\Message\RequestInterface;
-use LilleBitte\Teachdaire\Request;
-use LilleBitte\Teachdaire\Uri;
-use LilleBitte\Teachdaire\Stream;
+use LilleBitte\Messenger\Request;
+use LilleBitte\Messenger\Uri;
+use LilleBitte\Messenger\Stream;
 use PHPUnit\Framework\TestCase;
 
 /**

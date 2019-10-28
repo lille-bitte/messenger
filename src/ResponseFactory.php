@@ -1,10 +1,10 @@
 <?php
 
-namespace LilleBitte\Teachdaire;
+namespace LilleBitte\Messenger;
 
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ResponseFactoryInterface;
-use LilleBitte\Teachdaire\Response;
+use LilleBitte\Messenger\Response;
 
 /**
  * @author Paulus Gandung Prakosa <rvn.plvhx@gmail.com>

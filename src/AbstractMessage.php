@@ -1,6 +1,6 @@
 <?php
 
-namespace LilleBitte\Teachdaire;
+namespace LilleBitte\Messenger;
 
 use Psr\Http\Message\MessageInterface;
 use Psr\Http\Message\StreamInterface;

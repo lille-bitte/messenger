@@ -1,8 +1,8 @@
 <?php
 
-namespace LilleBitte\Teachdaire\Tests;
+namespace LilleBitte\Messenger\Tests;
 
-use LilleBitte\Teachdaire\Uri;
+use LilleBitte\Messenger\Uri;
 use Psr\Http\Message\UriInterface;
 use PHPUnit\Framework\TestCase;
 

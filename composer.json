@@ -1,5 +1,5 @@
 {
-	"name": "lille-bitte/teachdaire",
+	"name": "lille-bitte/messenger",
 	"type": "library",
 	"description": "PSR-7 HTTP Message Implementations",
 	"license": "BSD-3-Clause",
@@ -20,12 +20,12 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"LilleBitte\\Teachdaire\\": "src/"
+			"LilleBitte\\Messenger\\": "src/"
 		}
 	},
 	"autoload-dev": {
 		"psr-4": {
-			"LilleBitte\\Teachdaire\\Tests\\": "tests/"
+			"LilleBitte\\Messenger\\Tests\\": "tests/"
 		}
 	},
 	"require": {
@@ -41,5 +41,5 @@
 		"psr/http-factory-implementation": "1.0.0",
 		"psr/http-message-implementation": "1.0.0"
 	},
-	"minimum-stability": "stable"
+	"minimum-stability": "dev"
 }

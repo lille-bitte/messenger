@@ -1,9 +1,9 @@
 <?php
 
-namespace LilleBitte\Teachdaire\Tests;
+namespace LilleBitte\Messenger\Tests;
 
-use LilleBitte\Teachdaire\ServerRequest;
-use LilleBitte\Teachdaire\UploadedFile;
+use LilleBitte\Messenger\ServerRequest;
+use LilleBitte\Messenger\UploadedFile;
 use Psr\Http\Message\ServerRequestInterface;
 use PHPUnit\Framework\TestCase;
 
