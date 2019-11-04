@@ -24,12 +24,15 @@
 		}
 	},
 	"autoload-dev": {
+		"files": [
+			"src/functions.php"
+		],
 		"psr-4": {
 			"LilleBitte\\Messenger\\Tests\\": "tests/"
 		}
 	},
 	"require": {
-		"php": ">=7.1",
+		"php": "^7.1",
 		"psr/http-factory": "^1.0@dev",
 		"psr/http-message": "^1.0@dev"
 	},
