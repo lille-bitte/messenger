@@ -95,7 +95,7 @@ class Response extends AbstractMessage implements ResponseInterface
     {
         $this->setStatusCode($status);
         $this->body = $this->createOrGetStream($body, 'wb+');
-        $this->headers = $this->rearrangeHeader($headers);
+        $this->rearrangeHeader($headers);
     }
 
     /**
