@@ -124,6 +124,33 @@ class Response extends AbstractMessage implements ResponseInterface
         return $this->reasonPhrase;
     }
 
+    /**
+     * Return an instance with the specified ETag value.
+     *
+     * @param string $etag ETag value.
+     * @param bool $weak Validator trait.
+     * @return static
+     */
+    public function withEtag(string $etag, bool $weak = false)
+    {
+        $q = clone $this;
+        $q->withHeader('ETag', !$weak ? $etag : 'W/' . $etag);
+        return $q;
+    }
+
+    /**
+     * Return an instance with the specified content type value.
+     *
+     * @param string $type Content type.
+     * @return static
+     */
+    public function withContentType(string $type)
+    {
+        $q = clone $this;
+        $q->withHeader('Content-Type', $type);
+        return $q;
+    }
+
     private function setStatusCode($code, $reasonPhrase = '')
     {
         if (!is_integer($code) || !in_array($code, array_keys($this->phrases), true)) {
