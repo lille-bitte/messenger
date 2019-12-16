@@ -19,14 +19,14 @@
 		}
 	},
 	"autoload": {
+		"files": [
+			"src/functions.php"
+		],
 		"psr-4": {
 			"LilleBitte\\Messenger\\": "src/"
 		}
 	},
 	"autoload-dev": {
-		"files": [
-			"src/functions.php"
-		],
 		"psr-4": {
 			"LilleBitte\\Messenger\\Tests\\": "tests/"
 		}
