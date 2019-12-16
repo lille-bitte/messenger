@@ -10,14 +10,14 @@ use LilleBitte\Messenger\ResponseTrait as BaseResponseTrait;
  */
 class JsonResponse extends BaseResponse
 {
-	use BaseResponseTrait;
+    use BaseResponseTrait;
 
-	public function __construct($body = 'php://memory', $status = 200, $headers = [])
-	{
-		if (!$this->ensureHasContentType($headers)) {
-			$headers['Content-Type'] = ['application/json'];
-		}
+    public function __construct($body = 'php://memory', $status = 200, $headers = [])
+    {
+        if (!$this->ensureHasContentType($headers)) {
+            $headers['Content-Type'] = ['application/json'];
+        }
 
-		parent::__construct($body, $status, $headers);
-	}
+        parent::__construct($body, $status, $headers);
+    }
 }

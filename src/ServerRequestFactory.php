@@ -11,31 +11,31 @@ use LilleBitte\Messenger\ServerRequest;
  */
 class ServerRequestFactory implements ServerRequestFactoryInterface
 {
-	public static function createFromGlobals(
-		array $server = null,
-		array $query = null,
-		array $body = null,
-		array $cookies = null,
-		array $files = null
-	): ServerRequestInterface {
-		$server = $server ?? $_SERVER;
-		$files = $files ?? $_FILES;
-		$cookies = $cookies ?? $_COOKIE;
-		$query = $query ?? $_GET;
-		$body = $body ?? $_POST;
+    public static function createFromGlobals(
+        array $server = null,
+        array $query = null,
+        array $body = null,
+        array $cookies = null,
+        array $files = null
+    ): ServerRequestInterface {
+        $server = $server ?? $_SERVER;
+        $files = $files ?? $_FILES;
+        $cookies = $cookies ?? $_COOKIE;
+        $query = $query ?? $_GET;
+        $body = $body ?? $_POST;
 
-		return new ServerRequest(
-			$server,
-			$files,
-			getUriFromServer($server),
-			getMethodFromServer($server),
-			'php://input',
-			[],
-			$cookies,
-			$query,
-			getProtocolVersionFromServer($server)
-		);
-	}
+        return new ServerRequest(
+            $server,
+            $files,
+            getUriFromServer($server),
+            getMethodFromServer($server),
+            'php://input',
+            [],
+            $cookies,
+            $query,
+            getProtocolVersionFromServer($server)
+        );
+    }
 
     /**
      * {@inheritdoc}
